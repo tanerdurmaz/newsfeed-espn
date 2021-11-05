@@ -1,6 +1,4 @@
 let API = "https://api.rss2json.com/v1/api.json?rss_url=";
-let userFeedURLs = localStorage.getItem('userFeedURLs');
-userFeedURLs = userFeedURLs.split(",")
 
     $.ajax({
         type: 'GET',
